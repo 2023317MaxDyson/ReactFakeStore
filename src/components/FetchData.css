@@ -1,0 +1,25 @@
+.FetchData img {
+  width: 200px;
+  height: 50%;
+}
+
+.FetchData {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.FetchData select {
+  width: 200px;
+  height: 20px;
+}
+
+.products {
+  margin-left: 30px;
+  border-radius: 4px;
+  border-style: solid;
+  background-color: lightblue;
+  width: 400px;
+  height: 500px;
+}
