@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-export default function Home() {
+export default function Products() {
   const [products, setProduct] = useState([]); // Set the state as an empty array
   const [sortOption, setSortingOption] = useState(""); //Tracks selected sort option
   const [filterOption, setFilterOption] = useState(""); // Tracks selected category option
@@ -44,6 +44,10 @@ export default function Home() {
 
   return (
     <div className="container p-5 m-4 sm:p-2 md:p-3 lg:p-4">
+      {/* Header */}
+      <div className="text-center mb-6 sm:text-sm md:text-base lg:text-lg">
+        <p className="text-xl text-gray-600">Welcome to our fake online store!</p>
+      </div>
       <div className="flex justify-center items-center sm:flex-col md:flex-row lg:flex-row">
       <select className="rounded-lg p-2 m-2 bg-orange-400 text-white hover:bg-orange-500 sm:text-sm md:text-base lg:text-lg" onChange={handleSortChange} value={sortOption}>
         <option value=""> Sort by Price </option>

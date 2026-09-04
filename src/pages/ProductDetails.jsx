@@ -24,7 +24,7 @@ export default function ProductDetails() {
   }
 
   return (
-    <div className="container bg-gray-100 p-5 w-full m-4 sm:p-2 md:p-3 lg:p-4">
+    <div className="container bg-primary p-5 w-full m-4 sm:p-2 md:p-3 lg:p-4">
       <div className="container bg-white p-6 sm:p-2 md:p-3 lg:p-4">
       <h3 className="text-lg font-semibold p-2 mb-2 text-gray-800 sm:text-sm md:text-base lg:text-lg"> {product.title} </h3>
       <img className="w-80 h-80 p-4 m-6 bg-gray-200 shadow-md sm:text-sm md:text-base lg:text-lg" src={product.image} alt={product.title} />
